@@ -1,0 +1,57 @@
+body {
+  background-color: #ffffff;
+  margin: 0px; }
+
+.contenedor {
+  width: 70%;
+  margin: auto;
+  font-family: sans-serif; }
+  .contenedor .matriz, .contenedor .result {
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px; }
+    .contenedor .matriz p, .contenedor .result p {
+      color: dimgrey; }
+    .contenedor .matriz .level, .contenedor .result .level {
+      margin: 12px;
+      color: green; }
+      .contenedor .matriz .level input, .contenedor .result .level input {
+        width: 50px;
+        background-color: #fcfcfc;
+        border: none;
+        border-bottom: 1px solid #c6c6c6;
+        outline: none !important; }
+    .contenedor .matriz button, .contenedor .result button {
+      color: #fff;
+      background-color: #5bc0de;
+      border-color: #46b8da;
+      display: inline-block;
+      padding: 6px 12px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      margin-top: 30px; }
+    .contenedor .matriz .text-result, .contenedor .result .text-result {
+      color: #e97f7f; }
+    .contenedor .matriz .form, .contenedor .result .form {
+      width: 80%; }
+      .contenedor .matriz .form label, .contenedor .result .form label {
+        font-size: 12px;
+        line-height: 0px;
+        display: inline-block;
+        margin-bottom: .5rem; }
+      .contenedor .matriz .form input, .contenedor .result .form input {
+        display: block;
+        padding: .375rem .75rem;
+        width: 50px;
+        background-color: #fcfcfc;
+        border: none;
+        border-bottom: 1px solid #c6c6c6;
+        outline: none !important; }
+  .contenedor .result {
+    border-top: 2px solid lightgreen; }
+
+.display-N {
+  display: none !important; }
+
+/*# sourceMappingURL=main.css.map */

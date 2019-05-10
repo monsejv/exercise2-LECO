@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio2 - LECO</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="matriz">
+				<div class="form">
+					<label for="">Ingrese la longitud de la matriz que desea calcular</label>
+					<input type="text" id="matriz" onkeypress="restrictToNumber(event);" maxlength="3">
+					<button type="button" onclick="createMatriz()">Crear</button>
+				</div>
+				<p>Escribe los números en la matriz</p>
+				<br>
+				<div class="nxn">
+					<div class="level">
+					</div>
+				</div>
+				<button type="button" class="display-N calculate" onclick="getDiagonalsDifference()">Calcular diferencia</button>
+			</div>
+			<div class="result">
+				<p>La diferencia absoluta entre las diagonales de la matriz es:</p>
+				<h1 class="text-result"></h1>
+			</div>
+		</div>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
